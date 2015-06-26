@@ -1,0 +1,5 @@
+User-Agent: *
+# Disallow: /
+Disallow: /fonts/
+Disallow: /teamspeak/
+Disallow: /gba/

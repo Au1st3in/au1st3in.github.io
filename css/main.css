@@ -1,0 +1,123 @@
+html, body, .wrap {height: 100%;}
+
+body {
+    margin: 0;
+    font: normal 14px/1.2 "Source Sans Pro", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background: #111 url('../img/bg.jpg') center top/ cover;
+    color: #f7f7f7;
+}
+
+* {
+    -webkit-touch-callout:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+}
+
+:: -moz-selection{background: #C44D58;color: #fff;}
+:: selection{background: #C44D58;color: #fff;}
+a { text-decoration: none; color: #f7f7f7; }
+a:hover,a: active { outline: none;text-decoration: underline; }
+a: focus { outline: thin dotted; }
+
+.wrap, .main {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main {
+    padding: 8px 20px 15px;
+}
+
+h1, h2 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.me {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 9px rgba(2,2,2, .2);
+    box-shadow: 2px 2px 9px rgba(2,2,2, .2);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: filter .2s;
+}
+
+.me:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+
+.social a {
+    background-color: #f7f7f7;
+    border-radius: 35px;
+    margin: 0 5px;
+    width: 26px;
+    height: 26px;
+    line-height: 30px;
+    padding: 16px;
+    display: inline-block;
+    transition: background-color .3s ease, color .3s ease;
+    color: #222;
+}
+
+.social a:hover, .social a:focus {
+    outline: none;
+    background-color: #536569;
+    color: #536569;
+}
+
+.social a .fa {
+    font-size: 1.7em;
+}
+
+.links {
+    color: #333;
+    margin-top: 30px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: 100;
+}
+
+.links a:hover {
+    color: #ccc;
+}
+
+@media (max-width:  660px)  {
+    h1 {font-size: 64px; }
+    h2 {font-size: 24px; }
+}
+
+@media (max-width:  460px)  {
+    .wrap {display: none; }
+    .main {margin: 0 auto;margin-top: 15%; }
+    .links a {display: block; }
+    h1 {font-size: 48px; }
+    h2 {font-size: 16px; }
+}
+
+@media (max-width:  320px)  {
+    h1{font-size: 40px;}
+}
