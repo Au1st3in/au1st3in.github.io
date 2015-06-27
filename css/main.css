@@ -1,4 +1,4 @@
-html, body, .wrap {height: 100%;}
+html, body, .wrap {height: 100%;overflow-x: hidden;overflow-y: auto;}
 
 body {
     margin: 0;
