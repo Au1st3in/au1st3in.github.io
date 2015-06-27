@@ -2,7 +2,7 @@ html, body, .wrap {height: 100%;}
 
 body {
     margin: 0;
-    font: normal 14px/1.2 "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font: normal 14px/1.2 "Titillium Web", Helvetica, Arial, sans-serif;
     text-align: center;
     background: #111 url('../img/bg.jpg') center top/ cover;
     color: #f7f7f7;
@@ -34,11 +34,11 @@ a: focus { outline: thin dotted; }
 }
 
 h1, h2 {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
     margin: 0;
     color: #FFF;
     font-weight: 400;
-    font-size: 96px;
+    font-size: 84px;
 }
 
 .me {
@@ -60,9 +60,11 @@ h1, h2 {
 h2 {
     font-size: 36px;
     font-weight: 300;
+    margin-bottom: 16px;
 }
 
 .social {
+    display: inline;
     margin-top: 30px;
 }
 
@@ -70,7 +72,7 @@ h2 {
 .social a {
     background-color: #f7f7f7;
     border-radius: 35px;
-    margin: 0 5px;
+    margin: 6px 6px;
     width: 26px;
     height: 26px;
     line-height: 30px;
