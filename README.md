@@ -7,4 +7,3 @@ Social Media Aggregation Page
 * @CodeBrauer (https://github.com/CodeBrauer/gabrielw.de)
 * @Fort Awesome (https://github.com/FortAwesome/Font-Awesome)
 * @Google (https://www.google.com/fonts/specimen/Titillium+Web)
-* Foundation Icon Fonts 3 (http://zurb.com/playground/foundation-icon-fonts-3)
