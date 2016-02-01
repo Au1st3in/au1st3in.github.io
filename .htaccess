@@ -4,4 +4,5 @@ ExpiresByType image/png "access plus 10 minutes"
 ExpiresByType image/jpg "access plus 10 minutes"
 ExpiresByType text/css "access plus 10 minutes"
 ExpiresByType text/javascript "access plus 2 hours"
+ExpiresDefault "access 1 hour"
 </IfModule>
