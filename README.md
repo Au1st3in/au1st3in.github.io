@@ -7,4 +7,5 @@ A personal social media landing page.
 ## Credits
 * Bootstrap Cascading Style Sheets - Gabriel Wanzek (https://github.com/CodeBrauer/gabrielw.de)
 * Social Media Font Icons - Fort Awesome (https://github.com/FortAwesome/Font-Awesome)
+* PDFObject JavaScript - Philip Hutchison (https://github.com/pipwerks/PDFObject)
 * Webpage Font - Google (https://www.google.com/fonts/specimen/Titillium+Web)
