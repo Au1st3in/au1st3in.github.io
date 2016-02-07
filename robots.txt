@@ -1,5 +1,5 @@
 User-Agent: *
  Disallow: /
 User-Agent: googlebot
- Disallow: /
- Allow: /index.html
+ Allow: /
+ Disallow: /spring2016-mgt103-prototype
