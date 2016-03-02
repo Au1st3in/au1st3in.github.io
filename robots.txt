@@ -1,5 +1,6 @@
 User-Agent: *
  Disallow: /
 User-Agent: googlebot
+User-Agent: Facebot
  Allow: /
  Disallow: /spring2016-mgt103-prototype
