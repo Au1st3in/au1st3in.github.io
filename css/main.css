@@ -53,8 +53,8 @@ h1, h2 {
 }
 
 .me:hover {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 h2 {
