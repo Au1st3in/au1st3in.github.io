@@ -47,14 +47,6 @@ h1, h2 {
     border-radius: 50%;
     -webkit-box-shadow: 2px 2px 9px rgba(2,2,2, .2);
     box-shadow: 2px 2px 9px rgba(2,2,2, .2);
-    -webkit-filter: grayscale(25%);
-    filter: grayscale(25%);
-    transition: filter .2s;
-}
-
-.me:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
 }
 
 h2 {
