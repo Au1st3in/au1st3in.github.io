@@ -1,7 +1,7 @@
 Social Media Aggregation Page
 =============================
 
-![](https://raw.githubusercontent.com/Au1st3in/au1st3in.github.io/master/img/Example.png)
+![](https://raw.githubusercontent.com/Au1st3in/au1st3in.github.io/master/img/example.png)
 A modern personal social media landing page.
 
 ## Credits
