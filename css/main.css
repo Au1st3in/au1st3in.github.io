@@ -2,7 +2,7 @@ html {
   margin: 0;
   font: normal 14px/1.2 "Titillium Web", Helvetica, Arial, sans-serif;
   text-align: center;
-  background: #111 url('../img/bg.png') no-repeat center fixed/ cover;
+  background: #4d4d4d url('../img/bg.png') no-repeat center fixed/ cover;
 }
 
 body {
@@ -19,14 +19,6 @@ body {
   user-drag: none;
 }
 
-:: -moz-selection {
-  background: #C44D58;color: #fff;
-}
-
-:: selection {
-  background: #C44D58;color: #fff;
-}
-
 a {
   text-decoration: none; color: #f7f7f7;
 }
@@ -35,15 +27,9 @@ a:hover,a: active {
   outline: none;text-decoration: underline;
 }
 
-.wrap, .main {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 h1, h2 {
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   margin: 0;
-  color: #FFF;
   font-weight: 400;
   font-size: 78px;
 }
@@ -60,14 +46,9 @@ h2 {
 }
 
 .social a {
-  border-radius: 35px;
   margin: 6px 6px;
-  width: 36px;
-  height: 36px;
-  line-height: 30px;
   display: inline-block;
   transition: background-color .3s ease, color .3s ease;
-  color: #222;
 }
 
 .social a .fa {
