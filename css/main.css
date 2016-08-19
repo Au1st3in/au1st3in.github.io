@@ -5,7 +5,6 @@ body {
     font: normal 14px/1.2 "Titillium Web", Helvetica, Arial, sans-serif;
     text-align: center;
     background: #111 url('../img/bg.png') center top/ cover;
-    color: #f7f7f7;
 }
 
 * {
@@ -29,24 +28,12 @@ a: focus { outline: thin dotted; }
     vertical-align: middle;
 }
 
-.main {
-    padding: 8px 20px 15px;
-}
-
 h1, h2 {
     font-family: "Titillium Web", Helvetica, Arial, sans-serif;
     margin: 0;
     color: #FFF;
     font-weight: 400;
-    font-size: 84px;
-}
-
-.me {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    -webkit-box-shadow: 2px 2px 9px rgba(2,2,2, .2);
-    box-shadow: 2px 2px 9px rgba(2,2,2, .2);
+    font-size: 78px;
 }
 
 h2 {
@@ -62,30 +49,27 @@ h2 {
 
 
 .social a {
-    background-color: #f7f7f7;
     border-radius: 35px;
     margin: 6px 6px;
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
     line-height: 30px;
-    padding: 16px;
     display: inline-block;
     transition: background-color .3s ease, color .3s ease;
     color: #222;
 }
 
-.social a:hover, .social a:focus {
+.social a .fa {
+  font-size: 2em;
+  color: #222;
+}
+
+.social a:hover .fa {
     outline: none;
-    background-color: #7f9dbf;
     color: #7f9dbf;
 }
 
-.social a .fa {
-    font-size: 1.7em;
-}
-
 .links {
-    color: #333;
     margin-top: 30px;
 }
 
@@ -99,19 +83,11 @@ h2 {
     color: #ccc;
 }
 
-@media (max-width:  660px)  {
-    h1 {font-size: 64px; }
-    h2 {font-size: 24px; }
-}
-
-@media (max-width:  460px)  {
-    .wrap {display: none; }
-    .main {margin: 0 auto;margin-top: 15%; }
-    .links a {display: block; }
-    h1 {font-size: 48px; }
-    h2 {font-size: 16px; }
-}
-
-@media (max-width:  320px)  {
-    h1{font-size: 40px;}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2.5rem;
+  text-align: center;
 }
