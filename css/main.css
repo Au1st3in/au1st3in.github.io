@@ -2,7 +2,26 @@ html {
   margin: 0;
   font: normal 14px/1.2 "Titillium Web", Helvetica, Arial, sans-serif;
   text-align: center;
-  background: #4d4d4d url('../img/bg.png') no-repeat center fixed/ cover;
+  /* background: #4d4d4d url('../img/bg.png') no-repeat center fixed/ cover; */
+}
+
+video { display: block; }
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: #4d4d4d;
+    background-size: cover;
 }
 
 body {
