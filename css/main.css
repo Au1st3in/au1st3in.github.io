@@ -2,11 +2,12 @@ html {
   margin: 0;
   font: normal 14px/1.2 "Titillium Web", Helvetica, Arial, sans-serif;
   text-align: center;
+  -webkit-text-stroke: .1px black;
   /* background: #4d4d4d url('../img/bg.png') no-repeat center fixed/ cover; */
 }
 
 video {
-  display: block; 
+  display: block;
   filter: grayscale(1);
 }
 
