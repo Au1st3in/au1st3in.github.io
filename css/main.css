@@ -5,7 +5,10 @@ html {
   /* background: #4d4d4d url('../img/bg.png') no-repeat center fixed/ cover; */
 }
 
-video { display: block; }
+video {
+  display: block; 
+  filter: grayscale(1);
+}
 
 video#bgvid {
     position: fixed;
